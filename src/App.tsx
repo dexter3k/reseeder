@@ -1,7 +1,7 @@
 import { FaPlus } from 'react-icons/fa';
 import { TbBox } from 'react-icons/tb';
 
-function BarButton({children}) {
+function BarButton({children}: {children: any}) {
   return (
     <div className="flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto
                     bg-gray-100 hover:bg-red-600 text-red-500 hover:text-white
